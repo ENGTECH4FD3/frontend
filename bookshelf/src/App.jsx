@@ -1,13 +1,10 @@
 import './App.css'
+import Login from './pages/Login'
 
 function App() {
 
   return (
-    <div>
-        <h1 className="text-10xl text-slate-500 font-bold">
-          Hello World!
-        </h1>
-    </div>
+    <Login/>
   )
 }
 

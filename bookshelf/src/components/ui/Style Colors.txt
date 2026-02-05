@@ -1,0 +1,46 @@
+transition-colors on everything with hover for smoothness
+
+Light:
+    hover:borders-sky-700
+    
+    hover:text-sky-700
+    text-black
+
+    hover:bg-gray-200
+    bg-neutral-200/50
+
+Dark:
+    hover:borders-white
+    
+    hover:text-white/80
+    text-white
+
+    hover:bg-neutral-600
+    bg-white/10
+
+
+w-20
+w-24
+w-28
+w-32
+w-36
+w-40
+w-44
+w-48
+w-52
+w-56
+w-60
+w-64
+w-72
+w-80
+w-96
+104	w-[26rem]	26rem	416px
+112	w-[28rem]	28rem	448px
+120	w-[30rem]	30rem	480px
+128	w-[32rem]	32rem	512px
+144	w-[36rem]	36rem	576px
+160	w-[40rem]	40rem	640px
+176	w-[44rem]	44rem	704px
+192	w-[48rem]	48rem	768px
+208	w-[52rem]	52rem	832px
+224 w-[56rem]	56rem	896px

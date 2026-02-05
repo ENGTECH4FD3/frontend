@@ -1,25 +1,30 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
+import MainLayout from "./layouts/MainLayout";
 import AuthLayout from "./layouts/AuthLayout";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Profile from "./pages/Profile";
+import Feed from "./pages/Feed";
+import Discover from "./pages/Discover";
+import EditProfile from "./pages/EditProfile";
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				{/* INSTRUCTION: 
-                    "For any path starting with /, use AuthLayout as the wrapper."
-                */}
 				<Route element={<AuthLayout />}>
-					{/* If URL is /login, put <Login /> inside AuthLayout's Outlet */}
 					<Route path="/login" element={<Login />} />
-
-					{/* If URL is /register, put <Register /> inside AuthLayout's Outlet */}
 					<Route path="/register" element={<Register />} />
-
-					{/* Optional: Redirect plain "/" to "/login" for now */}
+					<Route path="/forgot" element={<Register />} />
 					<Route path="/" element={<Navigate to="/login" replace />} />
+				</Route>
+				<Route element={<MainLayout />}>
+					<Route path="/profile" element={<Profile />} />
+					<Route path="/feed" element={<Feed />} />
+					<Route path="/discover" element={<Discover />} />
+					<Route path="/settings" element={<EditProfile />} />
+					<Route path="/" element={<Navigate to="/profile" replace />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

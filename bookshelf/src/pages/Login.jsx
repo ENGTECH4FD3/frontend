@@ -41,7 +41,7 @@ function Login() {
 				<p className="text-black dark:text-white">
 					Don't have an account?{" "}
 					<Link
-                        to="/register"
+						to="/register"
 						className="border-b-2 border-stone-300 font-bold text-black dark:text-white hover:border-black dark:border-stone-500 dark:hover:border-white hover:text-black dark:hover:text-white"
 					>
 						Create Account

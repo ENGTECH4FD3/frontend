@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function LoginForm() {
 	//TODO: CONNECT FORGOT PASSWORD HREF
 	return (
@@ -25,12 +27,12 @@ function LoginForm() {
 					>
 						Password
 					</label>
-					<a
+					<Link
 						className="text-sm text-black/40 dark:text-white/40 opacity-1 hover:text-black dark:hover:text-white ml-auto"
-						href="forgot-password"
+						to="/forgot"
 					>
 						Forgot?
-					</a>
+					</Link>
 				</div>
 				<input
 					type="password"

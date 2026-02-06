@@ -1,6 +1,8 @@
 transition-colors on everything with hover for smoothness
 
 Light:
+    bg-white
+
     hover:borders-sky-700
     
     hover:text-sky-700
@@ -10,6 +12,8 @@ Light:
     bg-neutral-200/50
 
 Dark:
+    dark:bg-neutral-700/50
+
     hover:borders-white
     
     hover:text-white/80

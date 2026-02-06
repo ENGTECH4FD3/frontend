@@ -45,7 +45,7 @@ function MobileMenu() {
 							animate={{ y: 0 }}
 							exit={{ y: "-100%" }}
 							transition={{ duration: 0.3, ease: "easeInOut" }}
-							className="overscroll-contain fixed inset-x-0 top-[55px] h-screen bg-white/80 dark:bg-neutral-900/80 backdrop-blur-lg overflow-y-auto z-40"
+							className="overscroll-contain fixed inset-x-0 top-[55px] h-dvh bg-white/80 dark:bg-neutral-900/80 backdrop-blur-lg overflow-y-auto z-40"
 						>
 							<nav className="flex flex-col h-full p-8 text-4xl">
 								<div className="flex flex-col gap-8 items-center">

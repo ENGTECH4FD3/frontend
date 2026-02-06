@@ -7,10 +7,10 @@ import MobileMenu from "./MobileMenu";
 
 function NavBar() {
 	return (
-		<nav className="flex border-stone-200 py-2 px-2 sticky shadow border-b border-neutral-600/20 dark:border-black/30 top-0 dark:bg-neutral-700/50 backdrop-blur-lg z-50">
+		<nav className="flex py-2 px-2 sticky shadow border-b border-neutral-600/20 dark:border-black/30 top-0 dark:bg-neutral-700/50 backdrop-blur-lg z-50">
 			<div className="flex flex-row items-center gap-2 ml-2 md:ml-6">
 				<Logo className="w-10 h-10 text-black dark:text-white" />
-				<p className="hidden lg:flex flex text-2xl text-black dark:text-white italic font-serif">
+				<p className="hidden lg:flex flex pb-1 text-2xl text-black dark:text-white font-bold">
 					BookShelf
 				</p>
 			</div>

@@ -3,7 +3,7 @@ import loginSplash from "../assets/login-splash.jpg";
 
 function AuthLayout() {
 	return (
-		<div className="flex h-screen w-screen overflow-hidden">
+		<div className="flex md:h-screen min-h-dvh w-screen md:overflow-hidden">
 			<div className="hidden md:flex md:w-3/5">
 				<img
 					src={loginSplash}

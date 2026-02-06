@@ -10,7 +10,7 @@ function Login() {
 			<div className="mb-12">
 				<div className="flex items-center gap-2 mb-10">
 					<Logo className="w-10 h-10 text-black dark:text-white" />
-					<p className="text-2xl text-black dark:text-white italic font-serif">
+					<p className="pb-1 text-2xl text-black dark:text-white font-bold">
 						BookShelf
 					</p>
 				</div>
